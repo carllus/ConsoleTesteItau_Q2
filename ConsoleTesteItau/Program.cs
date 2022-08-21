@@ -17,7 +17,7 @@ namespace ConsoleTesteItau
     {
         static void Main(string[] args)
         {
-            int segundos = 5;
+            int segundos = 120;
             Console.WriteLine("Iniciando CSV's!");
             var dadosMoedas = GetDadosMoedaCSV();
             Console.WriteLine("...processando...");
